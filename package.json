@@ -1,0 +1,31 @@
+{
+  "name": "slateui-monorepo",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "build": "pnpm --filter @slateui/registry build && pnpm --filter slateui build && pnpm --filter @slateui/docs build",
+    "typecheck": "pnpm -r --workspace-concurrency=1 typecheck",
+    "lint": "eslint . --max-warnings=0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test:unit": "pnpm --filter @slateui/registry test && pnpm --filter slateui test",
+    "test:e2e": "pnpm --filter @slateui/e2e test",
+    "test:browser": "pnpm --filter @slateui/docs test:browser",
+    "test": "pnpm lint && pnpm format:check && pnpm build && pnpm typecheck && pnpm test:unit && pnpm test:e2e && pnpm test:browser"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.5",
+    "@types/node": "22.20.5",
+    "eslint": "9.39.5",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "globals": "16.5.0",
+    "prettier": "3.6.2",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.46.2",
+    "vitest": "3.2.4"
+  }
+}
