@@ -1,0 +1,5 @@
+packages:
+  - registry
+  - packages/*
+  - apps/*
+  - e2e
