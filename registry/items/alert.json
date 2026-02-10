@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "alert",
+  "type": "ui",
+  "description": "Inline callout for info, success, warning and danger messages.",
+  "files": ["ui/alert.tsx"],
+  "dependencies": ["class-variance-authority"],
+  "registryDependencies": ["utils"]
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "accordion",
+  "type": "ui",
+  "description": "Vertically stacked disclosure sections.",
+  "files": ["ui/accordion.tsx"],
+  "dependencies": ["@radix-ui/react-accordion"],
+  "registryDependencies": ["utils"]
+}
