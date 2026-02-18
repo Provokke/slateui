@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "badge",
+  "type": "ui",
+  "description": "Compact status label.",
+  "files": ["ui/badge.tsx"],
+  "dependencies": ["class-variance-authority"],
+  "registryDependencies": ["utils"]
+}

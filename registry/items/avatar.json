@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "avatar",
+  "type": "ui",
+  "description": "User image with text fallback.",
+  "files": ["ui/avatar.tsx"],
+  "dependencies": ["@radix-ui/react-avatar"],
+  "registryDependencies": ["utils"]
+}
