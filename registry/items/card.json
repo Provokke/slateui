@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "card",
+  "type": "ui",
+  "description": "Surface container with header, content and footer slots.",
+  "files": ["ui/card.tsx"],
+  "dependencies": [],
+  "registryDependencies": ["utils"]
+}

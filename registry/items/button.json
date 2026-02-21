@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "button",
+  "type": "ui",
+  "description": "Clickable action with solid, soft, outline, ghost, danger and link variants.",
+  "files": ["ui/button.tsx"],
+  "dependencies": ["@radix-ui/react-slot", "class-variance-authority"],
+  "registryDependencies": ["utils"]
+}
