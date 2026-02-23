@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "dropdown-menu",
+  "type": "ui",
+  "description": "Menu of actions, checkbox items and radio items.",
+  "files": ["ui/dropdown-menu.tsx"],
+  "dependencies": ["@radix-ui/react-dropdown-menu"],
+  "registryDependencies": ["utils"]
+}

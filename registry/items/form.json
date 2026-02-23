@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "form",
+  "type": "ui",
+  "description": "Form field helpers that wire labels, descriptions and errors with ARIA.",
+  "files": ["ui/form.tsx"],
+  "dependencies": ["@radix-ui/react-slot"],
+  "registryDependencies": ["utils", "label"]
+}
