@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "dialog",
+  "type": "ui",
+  "description": "Modal dialog with focus trap, Escape to close and scroll lock.",
+  "files": ["ui/dialog.tsx"],
+  "dependencies": ["@radix-ui/react-dialog"],
+  "registryDependencies": ["utils"]
+}

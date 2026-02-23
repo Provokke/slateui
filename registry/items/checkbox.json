@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "checkbox",
+  "type": "ui",
+  "description": "Tri-state checkbox (checked, unchecked, indeterminate).",
+  "files": ["ui/checkbox.tsx"],
+  "dependencies": ["@radix-ui/react-checkbox"],
+  "registryDependencies": ["utils"]
+}
