@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "input",
+  "type": "ui",
+  "description": "Single-line text field.",
+  "files": ["ui/input.tsx"],
+  "dependencies": [],
+  "registryDependencies": ["utils"]
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "label",
+  "type": "ui",
+  "description": "Accessible label bound to a form control.",
+  "files": ["ui/label.tsx"],
+  "dependencies": ["@radix-ui/react-label"],
+  "registryDependencies": ["utils"]
+}
