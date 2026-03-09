@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "popover",
+  "type": "ui",
+  "description": "Non-modal floating panel anchored to a trigger.",
+  "files": ["ui/popover.tsx"],
+  "dependencies": ["@radix-ui/react-popover"],
+  "registryDependencies": ["utils"]
+}

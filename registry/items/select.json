@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "select",
+  "type": "ui",
+  "description": "Listbox-style select with keyboard typeahead.",
+  "files": ["ui/select.tsx"],
+  "dependencies": ["@radix-ui/react-select"],
+  "registryDependencies": ["utils"]
+}
