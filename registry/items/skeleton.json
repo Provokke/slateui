@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "skeleton",
+  "type": "ui",
+  "description": "Loading placeholder.",
+  "files": ["ui/skeleton.tsx"],
+  "dependencies": [],
+  "registryDependencies": ["utils"]
+}

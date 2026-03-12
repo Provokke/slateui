@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "separator",
+  "type": "ui",
+  "description": "Visual or semantic divider.",
+  "files": ["ui/separator.tsx"],
+  "dependencies": ["@radix-ui/react-separator"],
+  "registryDependencies": ["utils"]
+}
