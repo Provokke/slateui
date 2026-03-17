@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "switch",
+  "type": "ui",
+  "description": "On/off toggle with role=switch.",
+  "files": ["ui/switch.tsx"],
+  "dependencies": ["@radix-ui/react-switch"],
+  "registryDependencies": ["utils"]
+}

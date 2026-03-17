@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "table",
+  "type": "ui",
+  "description": "Semantic data table primitives.",
+  "files": ["ui/table.tsx"],
+  "dependencies": [],
+  "registryDependencies": ["utils"]
+}
