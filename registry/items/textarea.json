@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "textarea",
+  "type": "ui",
+  "description": "Multi-line text field.",
+  "files": ["ui/textarea.tsx"],
+  "dependencies": [],
+  "registryDependencies": ["utils"]
+}

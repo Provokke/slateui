@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "tabs",
+  "type": "ui",
+  "description": "Tabbed panels with arrow-key navigation.",
+  "files": ["ui/tabs.tsx"],
+  "dependencies": ["@radix-ui/react-tabs"],
+  "registryDependencies": ["utils"]
+}
