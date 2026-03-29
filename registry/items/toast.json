@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "toast",
+  "type": "ui",
+  "description": "Imperative toast() notifications rendered by <Toaster />.",
+  "files": ["ui/toast.tsx"],
+  "dependencies": [],
+  "registryDependencies": ["utils"]
+}

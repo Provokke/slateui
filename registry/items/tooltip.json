@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "tooltip",
+  "type": "ui",
+  "description": "Short label shown on hover or keyboard focus.",
+  "files": ["ui/tooltip.tsx"],
+  "dependencies": ["@radix-ui/react-tooltip"],
+  "registryDependencies": ["utils"]
+}
