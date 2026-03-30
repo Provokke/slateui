@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema/item.schema.json",
+  "name": "utils",
+  "type": "lib",
+  "description": "The cn() class name helper.",
+  "files": ["lib/utils.ts"],
+  "dependencies": ["clsx", "tailwind-merge"],
+  "registryDependencies": []
+}
