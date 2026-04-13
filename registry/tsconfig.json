@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["vitest/globals", "@testing-library/jest-dom", "node"],
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/ui/*": ["./ui/*"],
+      "@/lib/*": ["./lib/*"]
+    }
+  },
+  "include": ["ui", "lib", "tests", "scripts", "vitest.config.ts"]
+}
